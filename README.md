@@ -1,5 +1,5 @@
 # No-IE.js
-The code which converts IE to Edge on Javascript
+The code which converts Internet Explorer to Edge on Javascript
 
 Try to open this page with IE.
 
