@@ -4,15 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://sinseiki.github.io/noIE.js/noIE.js" ></script>
+  <script>noIE('This page cannot be opened with IE. Check the Edge browser which has been opened.')</script>
 </head>
 <body>
   <p>Welcome to No-IE page~ Try to open this page with IE.</p>
 </body>
-<script>
-  if(navigator.userAgent.indexOf('Trident') > 0){
-    location.href = "microsoft-edge:" + location.href;
-    document.querySelector('p').innerText = 'This page cannot be opened with IE. Check the Edge browser which has been opened.'
-    setTimeout(close);
-  }
-</script>
 </html>
