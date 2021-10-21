@@ -11,4 +11,5 @@ https://sinseiki.github.io/noIE.js
 You can use this with
 
 <script src="https://sinseiki.github.io/noIE.js/noIE.js" ></script>
+
 <script>noIE('Alert Messege you want to show on IE')</script>
